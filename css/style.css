@@ -1,0 +1,219 @@
+/* &display=swap */
+@import "null.css";
+/* 8  из Google fonts*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,italic,700,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Murecho:100,200,300,400,500,600,700,800,900&display=swap);
+
+/* 8 загруженные */
+@font-face {
+	font-family: ArimoBold;
+	src: url("../fonts/Arimo-Bold.woff2") format("wofft2"), url("../fonts/Arimo-Bold.woff") format("wofft");
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: ArsenalItalic;
+	src: url("../fonts/Arsenal-Italic.woff2") format("wofft2"), url("../fonts/Arsenal-Italic.woff2") format("wofft");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: ACousineRegular;
+	src: url("../fonts/Cousine-Regular.woff2") format("wofft2"), url("../fonts/Cousine-Regular.woff") format("wofft");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: LoraRegular;
+	src: url("../fonts/Lora-Regular.woff2") format("wofft2"), url("../fonts/Lora-Regular.woff2") format("wofft");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: OswaldLight;
+	src: url("../fonts/Oswald-Light.woff2") format("wofft2"), url("../fonts/Oswald-Light.woff") format("wofft");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: UbuntuBold;
+	src: url("../fonts/Ubuntu-Bold.woff2") format("wofft2"), url("../fonts/Ubuntu-Bold.woff") format("wofft");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: VollkornBoldItalic;
+	src: url("../fonts/Vollkorn-BoldItalic.woff2") format("wofft2"), url("../fonts/Vollkorn-BoldItalic.woff") format("wofft");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: YantramanavRegular;
+	src: url("../fonts/Yantramanav-Regular.woff2") format("wofft2"), url("../fonts/Yantramanav-Regular.woff") format("wofft");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	color: rgba(37, 113, 228, 0.795);
+}
+
+.maintitile {
+	font-family: "Open Sans", sans-serif;
+	color: rgba(111, 0, 255, 0.904);
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.paragraph1 {
+	font-family: "Montserrat", sans-serif;
+	color: rgba(153, 205, 50, 0.856);
+	text-align: justify;
+	font-size: 10px;
+	font-weight: 100;
+	text-decoration: line-through;
+	text-transform: lowercase;
+	line-height: 2;
+}
+
+.paragraph2 {
+	font-family: "Oswald", sans-serif;
+	color: rgba(146, 70, 70, 0.747);
+	text-align: right;
+	font-size: 58px;
+	font-weight: 300;
+	text-decoration: underline;
+	text-transform: capitalize;
+	line-height: 3;
+}
+.paragraph3 {
+	font-family: "Raleway", sans-serif;
+	color: rgba(44, 173, 32, 0.733);
+	font-size: 20px;
+	font-weight: 900;
+	text-decoration: none;
+}
+.paragraph4 {
+	font-family: "Inter";
+	color: rgba(238, 255, 0, 0.952);
+	text-align: center;
+	font-size: 80px;
+	font-weight: 100;
+	text-decoration: line-through;
+}
+.paragraph5 {
+	font-family: "Murecho";
+	color: green;
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.paragraph6 {
+	font-family: "ArimoBold";
+	color: rgba(0, 0, 139, 0.363);
+	text-align: right;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: overline;
+	text-transform: lowercase;
+}
+.paragraph7 {
+	font-family: "ArsenalItalic";
+	font-style: italic;
+	color: rgba(165, 42, 42, 0.753);
+	text-align-last: left;
+	font-size: 26px;
+	text-decoration: underline;
+	text-shadow: -10px -10px 10px #000;
+	text-indent: 20px;
+}
+.title2 {
+	font-family: "ACousineRegular";
+	color: rgba(184, 135, 11, 0.836);
+	text-align: center;
+	font-size: 30px;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	word-spacing: 5px;
+}
+.paragraph8 {
+	font-family: "LoraRegular";
+	color: rgba(172, 255, 47, 0.836);
+	text-align: justify;
+	font-size: 26px;
+	text-decoration: none;
+	white-space: normal;
+}
+.title3 {
+	font-family: "OswaldLight";
+	color: hotpink;
+	text-align: right;
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: line-through;
+}
+.paragraph9 {
+	font-family: "UbuntuBold";
+	text-align-last: left;
+	color: rgba(186, 85, 211, 0.918);
+	font-size: 26px;
+	font-weight: 700;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+.title4 {
+	font-family: "VollkornBoldItalic";
+	color: rgba(0, 250, 154, 0.945);
+	text-align: center;
+	font-size: 38px;
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+.paragraph10 {
+	font-family: "YantramanavRegular";
+	text-align: right;
+	color: rgba(72, 209, 205, 0.76);
+	font-size: 25px;
+	text-decoration: underline;
+}
+.title5 {
+	font-family: "Montserrat";
+	color: rgba(20, 20, 233, 0.781);
+	text-align: center;
+	font-size: 96px;
+	font-weight: 900;
+	text-decoration: line-through;
+	text-shadow: 10px 10px 10px #000;
+}
+.paragraph11 {
+	color: rgba(0, 0, 0, 0.74);
+	font-size: 26px;
+	text-align: justify;
+	font-weight: 700;
+	text-decoration: overline;
+	text-transform: capitalize;
+}
